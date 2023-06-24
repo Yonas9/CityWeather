@@ -1,6 +1,6 @@
 class Forcast{
     constructor(){
-        this.key = 'AeS98V5DvWFzI0CXJk7j9ZVIo4PEgKAZ';
+        this.key =process.env.key;
         this.weatherURI = 'http://dataservice.accuweather.com/currentconditions/v1/';
         this.cityURI = 'http://dataservice.accuweather.com/locations/v1/cities/search';
     }
